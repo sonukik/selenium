@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
    import static org.testng.Assert.assertEquals;
 
     @Test
-    public class VerifyProductCost {
+    public class Testcase2 {
         public void verifyProductCostEquality() {
             WebDriverManager.chromedriver().setup();
             WebDriver driver = new ChromeDriver();

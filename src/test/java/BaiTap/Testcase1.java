@@ -1,29 +1,24 @@
 package BaiTap;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.time.Duration;
 
 import static org.apache.commons.lang3.ArrayUtils.isSorted;
 import static org.openqa.selenium.By.*;
 import static org.testng.AssertJUnit.assertEquals;
 
 @Test
-public class verifyTitle {
+public class Testcase1 {
 
-    public void verifyApplicationTitle() {
+    public static void verifyApplicationTitle() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
