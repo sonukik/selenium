@@ -14,14 +14,13 @@ import java.io.File;
 @Test
 
 public class Testcase8 {
-    public static void tc08(){
+    public static void tc08() {
         String email_address = "son293526@gmail.com";
         String password = "Nngs@19082003";
-
-        //CartPage
         String cartCountry = "Turkey";
         String cartRegion = "Kayseri";
-        String cartPostCode = "2000";
+        String cartPostCode = "70000";
+
         //CheckOutPage
         String firstname = "son";
         String lastname = "nguyen";
@@ -185,5 +184,5 @@ public class Testcase8 {
         //  Quit browser session
         driver.quit();
     }
+
     }
-}
